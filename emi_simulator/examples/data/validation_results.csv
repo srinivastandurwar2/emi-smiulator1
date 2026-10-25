@@ -1,0 +1,15 @@
+Check,Expected,Measured,Passed
+Loop field at centre = μ0/(2a) and off-axis formula → on-axis formula,1.256637e-05 T/A; relative difference < 1e-6,1.256637e-05 T/A; difference 1.8e-13,True
+Flux via reciprocity matches direct integration of B·dA over the coil,relative difference < 1e-6 (12 positions/tilts),largest difference 3.3e-15,True
+Central-difference EMF matches analytic −N (dΦ/dx) v (θ = 0),error < 0.1 % of peak,0.0061 % of peak,True
+"Uniform field, B = B0 + (dB/dt)t: ε = −N A cos θ dB/dt",-0.866025 V (constant),"-0.866025 V, max deviation 2.1e-13",True
+Stationary magnet and coil (constant flux) give zero EMF,max |ε| = 0 V,max |ε| = 0.00e+00 V; Φ = 9.649e-05 Wb,True
+Doubling turns N doubles the peak EMF,"ratios 2.000, 2.000","2.0000, 2.0000",True
+Doubling speed v doubles the peak EMF,"ratios 2.000, 2.000","2.0000, 2.0000",True
+Doubling magnet strength B₀ doubles the peak EMF,"ratios 2.000, 2.000","2.0000, 2.0000",True
+EMF sign reverses when the motion reverses or the polarity reverses,"approach N: −, recede N: +, approach S: +","approach N: −, recede N: +, approach S: +",True
+Lenz's law: an approaching N pole induces an N face on the coil (repulsion),coil face toward magnet = N,coil face toward magnet = N,True
+"Coil edge-on (θ = 90°): magnet moves but flux stays 0, so ε = 0","max |Φ| ≈ 0, max |ε| ≈ 0","max |Φ| = 0.0e+00 Wb, max |ε| = 0.0e+00 V",True
+Total charge ∫I dt = −NΔΦ/R and does not depend on speed,-1.92112e-03 C at both speeds,v = 0.5 m/s: -1.92112e-03 C; v = 2 m/s: -1.92112e-03 C,True
+Average EMF (−NΔΦ/Δt) is smaller in magnitude than the peak EMF,|ε_avg| < |ε_peak|,"|ε_avg| = 0.0712 V, |ε_peak| = 0.6950 V",True
+θ = 0 flux equals the closed form μ0 m a² / (2(a² + x²)^{3/2}),relative difference < 1e-12,9.0e-17,True

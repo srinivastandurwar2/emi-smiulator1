@@ -1,0 +1,5 @@
+Case,Facing pole,Motion,Flux along n̂,Dominant EMF (V),Current (A),Current seen from magnet side,Coil face toward magnet,Effect on magnet
+N pole approaches,N,approach,increasing,-0.6949630977838523,-0.06949630977838524,anticlockwise,N,"repels, opposing the approach"
+N pole moves away,N,recede,decreasing,0.6949630977837319,0.06949630977837319,clockwise,S,"attracts, opposing the separation"
+S pole approaches,S,approach,decreasing,0.6949630977838523,0.06949630977838524,clockwise,S,"repels, opposing the approach"
+S pole moves away,S,recede,increasing,-0.6949630977837319,-0.06949630977837319,anticlockwise,N,"attracts, opposing the separation"

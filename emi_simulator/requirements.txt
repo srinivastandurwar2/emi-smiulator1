@@ -1,0 +1,9 @@
+# Python 3.11 or newer
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.7
+plotly>=5.18
+streamlit>=1.32
+# optional, for running the tests with pytest (scripts/run_tests.py works without it)
+pytest>=7.4
